@@ -1,7 +1,7 @@
 {
   "name": "doctorchatbot",
   "version": "0.1.0",
-  "proxy": "https://doctor-heart-chatbot.herokuapp.com",
+  "proxy": "https://heart-doctor-chatbot.herokuapp.com/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
