@@ -5,7 +5,7 @@ def checkDisease(getreport):
     print("---- Predicting Presence of Heart Disease or not ----")
     prediction = 2
     try:
-        prediction = svm_pred(age = int(getreport["age"]), 
+        prediction = rfm_pred(age = int(getreport["age"]), 
                                 sex = int(getreport["gender"]), 
                                 cp = int(getreport["chestPain"]), 
                                 trestbps = int(getreport["restingBloodPressure"]), 

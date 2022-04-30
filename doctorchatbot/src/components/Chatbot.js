@@ -10,8 +10,8 @@ const useStyles = makeStyles({
 
 function Chatbot() {
     const classes = useStyles();
-    const [height_, setHeight_] = useState("550");
-    const [width_, setWidth_] = useState("500");
+    const [height_, setHeight_] = useState("650");
+    const [width_, setWidth_] = useState("550");
 
     function vhToPixels_Height (vh) {
         return Math.round(window.screen.height / (100 / vh));
